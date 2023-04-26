@@ -1,0 +1,4 @@
+ellipse[cool] 5 5 90 10
+line[O_o] 1 1 90 7
+rect[2] 50 50 70 70
+rect[1] 60 80 70 90

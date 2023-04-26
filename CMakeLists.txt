@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.1.0)
+project(VectorEditor)
+include_directories(${CMAKE_SOURCE_DIR}/include)
+add_subdirectory(src)
+add_executable(VectorEditor main.cpp)
+target_link_libraries(VectorEditor libs gtest)
